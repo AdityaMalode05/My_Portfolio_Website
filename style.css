@@ -244,15 +244,15 @@ span{
 @keyframes words{
   0%,
   20%{
-    content: "Full Stack Dev";
+    content: "Software Dev";
   }
   21%,
   40%{
-    content: "MERN Stack Dev";
+    content: "Full Stack Dev";
   }
   41%,
   60%{
-    content: "UI / UX Designer";
+    content: "Backend Dev";
   }
   61%,
   80%{
@@ -260,7 +260,7 @@ span{
   }
   81%,
   100%{
-    content: "Software Dev";
+    content: "UI / UX Designer";
   }
 }
 
@@ -293,7 +293,11 @@ span{
 .heading{
   font-size: 8rem;
   text-align: center;
-  margin: 5rem 0;
+  margin: 2rem 0;
+}
+
+.title{
+  font-size: 30px;
 }
 
 .education{
@@ -402,6 +406,10 @@ left: calc(50% - 8px);
   width: 50px;
 }
 
+.title{
+  display: block;
+}
+
 .services{
   background: var(--bg-color);
   color: black;
@@ -442,7 +450,7 @@ left: calc(50% - 8px);
   max-height: 200px;
   justify-content: left;
   align-items: baseline;
-  padding: 5rem 5rem;
+  padding: 2rem 4rem;
 }
 
 .service-info h4{
